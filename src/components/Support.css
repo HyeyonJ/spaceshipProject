@@ -1,0 +1,7 @@
+.support:hover {
+    transform: scale(1.1);
+    transition-property: transform;
+    transition-duration: 1s;
+    transition: all 0.3s ease-in-out;   /* 부드러운 모션을 위해 추가*/
+    cursor: pointer;
+  }

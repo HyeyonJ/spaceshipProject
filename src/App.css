@@ -1,0 +1,138 @@
+.sayHi {
+    font-size: 35px;
+    margin-left: 250px; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.introduce img {
+    float: left;
+    margin: 5px;
+    padding: 5px;
+}
+
+.campaign:hover {
+    transform: scale(1.1);
+    transition-property: transform;
+    transition-duration: 1s;
+    transition: all 0.3s ease-in-out;   /* 부드러운 모션을 위해 추가*/
+    cursor: pointer;
+}
+
+/* .nature12:hover {
+    background: url('http://dummyimage.com/100x100/eb00eb/fff');
+    src: "process.env.PUBLIC_URL + "/images/nature11.jpg"
+} */
+
+@font-face{
+    font-family: "luckyLetter";
+    src: url('D:\workspace_web\project2\src\components\luckyLetter.ttf');
+    }
+
+.luckyLetter {
+    font-family: luckyLetter;
+    font-size: 50px;
+}
+
+.luckyLetter2 {
+    font-size: 50px;
+}
+
+.book img {
+    float: left;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+.lucky:hover {
+    transform: scale(1.1);
+    transition-property: transform;
+    transition-duration: 1s;
+    transition: all 0.3s ease-in-out;   /* 부드러운 모션을 위해 추가*/
+    cursor: pointer;
+}
+
+.pCard:hover {
+    transform: scale(1.1);
+    transition-property: transform;
+    transition-duration: 1s;
+    transition: all 0.3s ease-in-out;   /* 부드러운 모션을 위해 추가*/
+    cursor: pointer;
+}
+
+.store {
+    display: inline-block;
+    margin:40px;
+    text-align: left;
+}
+
+.topStore {
+    text-align: center;
+}
+
+.storeButton {
+    width: 100%;
+}
+
+.cartTable {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.actionCard {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+@font-face{
+    font-family: "nanum";
+    src: url("D:\workspace_web\project2\src\components\NanumGothicBold.ttf");
+    }
+
+@font-face{
+    font-family: nanumBarun;
+    src: url("D:\workspace_web\project2\src\components\NanumBarunGothic-YetHangul.ttf");
+}
+
+.introText {
+    font-family: nanumBarun;
+}
+
+.planetText {
+    font-family: nanumBarun;
+}
+
+.storeText {
+    font-family: nanumBarun;
+    text-align: center;
+}
+
+.storeLifeText {
+    font-family: nanumBarun;
+    color:crimson;
+    text-align: center;
+}
+
+.tableMainText {
+    font-family: nanum;
+    font-size: 22px;
+}
+
+.tableMainInText {
+    font-family: nanumBarun;
+    font-size: 18px;
+    text-align: center;
+}
+
+.actionText {
+    font-family: nanumBarun;
+    font-size: 23px;
+}
+
+.eventText {
+    font-family: luckyLetter;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 50px;
+}

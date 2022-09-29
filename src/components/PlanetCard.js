@@ -95,7 +95,7 @@ function PlanetCard () {
                   <Card style={{ width: "20rem" }} className="pCard"
                   onClick={ () => {navigate("/Misson")}}
                   >
-                    <Card.Img variant="top" src={process.env.PUBLIC_URL + "/images/3earth.jpg"}
+                    <Card.Img variant="top" src={process.env.PUBLIC_URL + "/images/3Earth.jpg"}
                     width="318px"  height="300px" />
                     <Card.Body>
                       <Card.Title style={{marginLeft:"100px"}}>Earth</Card.Title>

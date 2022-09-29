@@ -9,7 +9,7 @@ function ToEarth () {
 return (
   <div>
     {/* ToEarth 영상 */}
-    <video src="/videos/toEarth3.mp4" typeof="video/mp4" 
+    <video src={process.env.PUBLIC_URL + "/videos/toEarth3.mp4"} typeof="video/mp4" 
     muted="muted" autoPlay="autoPlay" loop="loop" width='100%'
     style={{display:'inline-block'}}/>
   </div>

@@ -10,7 +10,7 @@ function Todo () {
 
 return(
     <div>
-        <video src="/videos/backTo.mp4" typeof="video/mp4" 
+        <video  src={process.env.PUBLIC_URL + "/videos/backTo.mp4"} typeof="video/mp4" 
         muted="muted" autoPlay="autoPlay" loop="loop" width='100%' 
         style={{display:'inline-block'}}/>
 

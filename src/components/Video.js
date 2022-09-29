@@ -20,7 +20,7 @@ import ReactAudioPlayer from 'react-audio-player';
         // />
         // </div>
         <div>
-        <video src="/videos/space3.mp4" typeof="video/mp4" 
+        <video src={process.env.PUBLIC_URL + "/videos/space3.mp4"} typeof="video/mp4" 
         muted="muted" autoPlay="autoPlay" loop="loop" width='100%' 
         style={{display:'inline-block'}}/>
 

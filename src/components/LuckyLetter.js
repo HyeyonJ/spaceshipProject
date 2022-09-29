@@ -15,7 +15,7 @@ return (
       <Row>
         <Col></Col>
         <Col xs={6}>
-        <video className="lucky" src="/videos/earthHolo.mp4" typeof="video/mp4" 
+        <video className="lucky"  src={process.env.PUBLIC_URL + "/videos/earthHolo.mp4"} typeof="video/mp4" 
             muted="muted" autoPlay="autoPlay" loop="loop" width='100%' 
             height="300px"
             style={{display:'inline-block'}}/></Col>

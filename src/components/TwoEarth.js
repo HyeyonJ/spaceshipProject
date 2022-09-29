@@ -75,7 +75,7 @@ return (
         </Col>
         <Col xs={6} >
             <div>
-            <video src="/videos/twoEarth3.mp4" typeof="video/mp4" 
+            <video src={process.env.PUBLIC_URL + "/videos/twoEarth3.mp4"} typeof="video/mp4" 
             muted="muted" autoPlay="autoPlay" loop="loop" width='100%'
             style={{display:'inline-block'}}/>
             </div>

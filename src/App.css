@@ -1,7 +1,7 @@
 .sayHi {
     font-size: 35px;
-    margin-left: 250px; 
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 250px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .introduce img {
@@ -14,7 +14,8 @@
     transform: scale(1.1);
     transition-property: transform;
     transition-duration: 1s;
-    transition: all 0.3s ease-in-out;   /* 부드러운 모션을 위해 추가*/
+    transition: all 0.3s ease-in-out;
+    /* 부드러운 모션을 위해 추가*/
     cursor: pointer;
 }
 
@@ -23,10 +24,16 @@
     src: "process.env.PUBLIC_URL + "/images/nature11.jpg"
 } */
 
-@font-face{
+/* @font-face{
     font-family: "luckyLetter";
     src: url('D:\workspace_web\project2\src\components\luckyLetter.ttf');
-    }
+    } */
+
+@font-face {
+    font-family: 'LuckyLetter';
+    src: url('./components/luckyLetter.ttf') format('truetype');
+}
+
 
 .luckyLetter {
     font-family: luckyLetter;
@@ -48,7 +55,8 @@
     transform: scale(1.1);
     transition-property: transform;
     transition-duration: 1s;
-    transition: all 0.3s ease-in-out;   /* 부드러운 모션을 위해 추가*/
+    transition: all 0.3s ease-in-out;
+    /* 부드러운 모션을 위해 추가*/
     cursor: pointer;
 }
 
@@ -56,13 +64,14 @@
     transform: scale(1.1);
     transition-property: transform;
     transition-duration: 1s;
-    transition: all 0.3s ease-in-out;   /* 부드러운 모션을 위해 추가*/
+    transition: all 0.3s ease-in-out;
+    /* 부드러운 모션을 위해 추가*/
     cursor: pointer;
 }
 
 .store {
     display: inline-block;
-    margin:40px;
+    margin: 40px;
     text-align: left;
 }
 
@@ -85,7 +94,7 @@
 }
 
 
-@font-face{
+/* @font-face{
     font-family: "nanum";
     src: url("D:\workspace_web\project2\src\components\NanumGothicBold.ttf");
     }
@@ -93,6 +102,16 @@
 @font-face{
     font-family: nanumBarun;
     src: url("D:\workspace_web\project2\src\components\NanumBarunGothic-YetHangul.ttf");
+} */
+
+@font-face {
+    font-family: 'NanumGothicBold';
+    src: url('./components/NanumGothicBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'NanumBarunGothicYetHangul';
+    src: url('./components/NanumBarunGothic-YetHangul.ttf') format('truetype');
 }
 
 .introText {
@@ -110,7 +129,7 @@
 
 .storeLifeText {
     font-family: nanumBarun;
-    color:crimson;
+    color: crimson;
     text-align: center;
 }
 
